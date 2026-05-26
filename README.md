@@ -1,30 +1,30 @@
-                                                 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-                                                                                🜂
+                                                                          🜂
 
-                  𝐒   𝐎   𝐕   𝐄   𝐑   𝐄   𝐈   𝐆   𝐍
+                                                        𝐒   𝐎   𝐕   𝐄   𝐑   𝐄   𝐈   𝐆   𝐍
 
-       S Y S T E M I C   S U I T E   F O R   P E R S O N A L
-            D A T A   P R O T E C T I O N   I N   A
-                      S M A R T P H O N E
+                                             S Y S T E M I C   S U I T E   F O R   P E R S O N A L
+                                                     D A T A   P R O T E C T I O N   I N   A
+                                                               S M A R T P H O N E
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-                Digital sterility of personal space
+                                                       Digital sterility of personal space
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
-   ❝ The kitchen rule is simple: raw meat doesn't share a shelf
-     with cooked food. The digital world has forgotten this principle.
-     Sovereign brings the same separation discipline
-     to your phone. ❞
+                                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
+                                            ❝ The kitchen rule is simple: raw meat doesn't share a shelf
+                                          with cooked food. The digital world has forgotten this principle.
+                                                  Sovereign brings the same separation discipline
+                                                                  to your phone. ❞
 
 
-  📱  YOUR SMARTPHONE IS NOT YOURS
+                                            ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
+
+
+                                                        📱  YOUR SMARTPHONE IS NOT YOURS
 
 
 Open your phone settings and look at the list of installed applications. Most of them you installed yourself — banking, marketplace, messenger, government services, taxi, food delivery. Some were pre-installed by the manufacturer — flashlight, weather, voice recorder, calculator, browser, voice assistant.
