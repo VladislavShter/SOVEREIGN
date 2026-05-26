@@ -12,9 +12,9 @@
   <img src="assets/ezgif.com-animated-gif-maker.gif" alt="Sovereign" width="800"/>
 </p>
 
-                                        Digital sterility of personal space
+                                      Digital sterility of personal space
 
-                          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
                             ❝ The kitchen rule is simple: raw meat doesn't share a shelf
