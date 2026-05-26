@@ -10,6 +10,10 @@
 
                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+                          <p align="center">
+  <img src="assets/ezgif.com-animated-gif-maker.gif" alt="Sovereign" width="800"/>
+</p>
+
                                         Digital sterility of personal space
 
                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
