@@ -1,4 +1,4 @@
-                                            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                          ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
                                                                           🜂
 
@@ -10,7 +10,7 @@
 
                                            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-                                                       Digital sterility of personal space
+                                                        Digital sterility of personal space
 
                                            ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -24,7 +24,7 @@
                                   ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
 
 
-                                                        📱  YOUR SMARTPHONE IS NOT YOURS
+                                                         📱  YOUR SMARTPHONE IS NOT YOURS
 
 
 Open your phone settings and look at the list of installed applications. Most of them you installed yourself — banking, marketplace, messenger, government services, taxi, food delivery. Some were pre-installed by the manufacturer — flashlight, weather, voice recorder, calculator, browser, voice assistant.
@@ -696,26 +696,26 @@ For those who share the philosophy of digital sovereignty and are ready to suppo
 Contact for proposals — through the profile below.
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-                            CONTACTS
+                                                                               CONTACTS
 
-      GitHub      ─   github.com/VladislavShter
-      LinkedIn    ─   linkedin.com/in/sovereignbankweb3
-      Contact     ─   to be added upon publication
+                                                              GitHub      ─   github.com/VladislavShter
+                                                          LinkedIn    ─   linkedin.com/in/sovereignbankweb3
+                                                            Contact     ─   to be added upon publication
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-
-   ❝ Digital sterility is not paranoia. It is self-respect. ❞
+                                                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                                       ❝ Digital sterility is not paranoia. It is self-respect. ❞
 
-                                  🜂
 
-                  C R E A T I N G   S O L O ,
-              A G A I N S T   T H E   I N E V I T A B L E
+                                                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                                                                                  🜂
+
+                                                                     C R E A T I N G   S O L O ,
+                                                            A G A I N S T   T H E   I N E V I T A B L E
+
+                                                     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
