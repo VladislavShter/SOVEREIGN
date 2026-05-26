@@ -510,17 +510,11 @@ For the most critical operations — signing large transactions, working with es
 Sovereign is designed with the understanding that battery is a finite resource. Each feature is marked by energy consumption level:
 
 
-┌──────────────┬───────────────────────────────────────────────────────────┬──────────────────────────────────┐
-│    Level     │                        Features                           │            Behavior              │
-├──────────────┼───────────────────────────────────────────────────────────┼──────────────────────────────────┤
-│  🟢 Low      │ Behavioral Locks, Time-Locked, The Veil, Compass,         │ Enabled by default               │
-│              │ Vault, Forensic Bait, Quantum Vault, Air Gap              │                                  │
-├──────────────┼───────────────────────────────────────────────────────────┼──────────────────────────────────┤
-│  🟡 Medium   │ Sovereign Mesh, X-Ray, Phantom Persona,                   │ Toggle, disabled by default      │
-│              │ Stranger Detection, Per-app VPN                           │                                  │
-├──────────────┼───────────────────────────────────────────────────────────┼──────────────────────────────────┤
-│  🔴 High     │ Sovereign Whisper (AI), Silent Witness Recording          │ Toggle, activation on demand     │
-└──────────────┴───────────────────────────────────────────────────────────┴──────────────────────────────────┘
+| Level | Features | Behavior |
+|---|---|---|
+| 🟢 **Low** | Behavioral Locks, Time-Locked, The Veil, Compass, Vault, Forensic Bait, Quantum Vault, Air Gap | Enabled by default |
+| 🟡 **Medium** | Sovereign Mesh, X-Ray, Phantom Persona, Stranger Detection, Per-app VPN | Toggle, disabled by default |
+| 🔴 **High** | Sovereign Whisper (AI), Silent Witness Recording | Toggle, activation on demand |
 
 
    ⚡  Sovereign Battery Saver.  Automatically disables 🔴 and 🟡 features when charge drops below the set threshold (30% by default). Restores them on charging. Threshold is configurable by the user.
@@ -537,18 +531,16 @@ Sovereign is designed with the understanding that battery is a finite resource. 
 Sovereign is designed to work on a wide range of Android devices, but the quality of work depends on the manufacturer and its system modifications.
 
 
-┌──────────────────────────────────┬───────────────────────┬──────────────────────────────────────────────────────────────────┐
-│           Manufacturer           │     Compatibility     │                          Notes                                   │
-├──────────────────────────────────┼───────────────────────┼──────────────────────────────────────────────────────────────────┤
-│  Google Pixel / AOSP             │  ✅  Full             │  Reference, all features work in full                            │
-│  Samsung One UI (Android 11+)    │  ✅  Full             │  Samsung Secure Folder must be disabled (conflict with DPC)      │
-│  Xiaomi MIUI / HyperOS           │  ⚠️  With setup       │  Requires autostart permissions and battery optimization off     │
-│  OPPO ColorOS / OnePlus OxygenOS │  ⚠️  With setup       │  Similar to Xiaomi                                               │
-│  Vivo FuntouchOS / Realme UI     │  ⚠️  With setup       │  Similar                                                         │
-│  Honor MagicOS                   │  ⚠️  With setup       │  Similar                                                         │
-│  Huawei (without GMS)            │  ❌  Limited          │  No Play Integrity. Separate build planned in v2.x               │
-│  Tecno / Infinix                 │  ⚠️  Android 11+      │  Not supported on older versions                                 │
-└──────────────────────────────────┴───────────────────────┴──────────────────────────────────────────────────────────────────┘
+| Manufacturer | Compatibility | Notes |
+|---|---|---|
+| **Google Pixel / AOSP** | ✅ Full | Reference, all features work in full |
+| **Samsung One UI** (Android 11+) | ✅ Full | Samsung Secure Folder must be disabled (conflict with DPC) |
+| **Xiaomi MIUI / HyperOS** | ⚠️ With setup | Requires autostart permissions and battery optimization off |
+| **OPPO ColorOS / OnePlus OxygenOS** | ⚠️ With setup | Similar to Xiaomi |
+| **Vivo FuntouchOS / Realme UI** | ⚠️ With setup | Similar |
+| **Honor MagicOS** | ⚠️ With setup | Similar |
+| **Huawei** (without GMS) | ❌ Limited | No Play Integrity. Separate build planned in v2.x |
+| **Tecno / Infinix** | ⚠️ Android 11+ | Not supported on older versions |
 
 
 Minimum requirements — Android 11+, 4 GB RAM, 8 GB free storage, hardware-backed Keystore (TEE).
@@ -727,3 +719,4 @@ Contact for proposals — through the profile below.
               A G A I N S T   T H E   I N E V I T A B L E
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
