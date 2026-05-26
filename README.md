@@ -9,8 +9,6 @@
                                                 S M A R T P H O N E
 
                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-                          <p align="center">
   <img src="assets/ezgif.com-animated-gif-maker.gif" alt="Sovereign" width="800"/>
 </p>
 
