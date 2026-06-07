@@ -704,7 +704,7 @@ Contact for proposals — through the profile below.
 
                                       GitHub      ─   github.com/VladislavShter
                                   LinkedIn    ─   linkedin.com/in/sovereignbankweb3
-                                    Contact     ─   to be added upon publication
+                                    Contact     ─   https://s0vereign.pw
 
                             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
