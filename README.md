@@ -9,12 +9,18 @@
                                                 S M A R T P H O N E
 
                           ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+<p align="center">
   <img src="assets/ezgif.com-animated-gif-maker.gif" alt="Sovereign" width="800"/>
 </p>
 
                                       Digital sterility of personal space
 
                         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+                          ✅  v1.0 — SHIPPING NOW  ·  one-time, lifetime license
+                      🛒  GET SOVEREIGN  →  https://s0vereign.pw/#sovereign
 
 
                             ❝ The kitchen rule is simple: raw meat doesn't share a shelf
@@ -228,7 +234,7 @@ What to keep in the "Sovereign" profile:
    🔑  Access to work tools requiring the highest confidentiality
    🗄️  Personal archive that must not reach anyone
 
-The "Sovereign" profile is invisible from "Citizen". "Sovereign" is invisible from "Human" until you enter the key. Its icon is not displayed in the app list. Its data is not indexed. In "Veil" mode, the container itself is cryptographically indistinguishable from ordinary encrypted cache — even forensic software will see "free space", not an encrypted volume.
+The "Sovereign" profile is invisible from "Citizen". "Sovereign" is invisible from "Human" until you enter the key. Its icon is not displayed in the app list. Its data is not indexed. In "Veil" mode, the hidden vault is shown nowhere in the interface — to an ordinary inspection of the phone there is simply nothing there to open.
 
 
 ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
@@ -242,8 +248,6 @@ The "Sovereign" profile is invisible from "Citizen". "Sovereign" is invisible fr
 
        🔍  BASIC LAYER — FOUNDATION OF ISOLATION
 
-
-   🌐  Per-app VPN.  Each app in each profile can have its own VPN. Government apps go directly (so as not to arouse suspicion). Personal messengers — through WireGuard. Crypto wallets — through Tor. One phone, three network routes.
 
    🛰️  Separate DNS.  Each profile can use its own DNS server. "Citizen" — the provider's. "Human" — Cloudflare 1.1.1.1 or AdGuard. "Sovereign" — own anonymized DNS over HTTPS.
 
@@ -327,14 +331,6 @@ All — without a single outgoing packet. AI runs on your phone's processor, in 
      where the cloud is unacceptable. ❞
 
 
-       🤝  𝐁𝐄𝐇𝐀𝐕𝐈𝐎𝐑𝐀𝐋 𝐋𝐎𝐂𝐊𝐒
-
-
-Some "Sovereign" modules open not by password, but by behavior. Pattern of screen touches, sequence of taps, optionally — NFC tag (physical token).
-
-The main function is protection from coercion. Under threat you enter the "correct" password — "Sovereign" opens, but empty or with decoy data. Real content is accessible only if before the password a correct behavioral gesture was performed without signs of stress (sensors analyze the rhythm of touches — under duress it is different).
-
-
        ⏰  𝐓𝐈𝐌𝐄-𝐋𝐎𝐂𝐊𝐄𝐃 𝐌𝐎𝐃𝐔𝐋𝐄𝐒
 
 
@@ -343,22 +339,14 @@ Modules accessible only at specified hours. Work documents — only 9:00–18:00
 This is not a prohibition. This is a structure of life, embedded in the architecture of the device.
 
 
-       📍  𝐆𝐄𝐎-𝐅𝐄𝐍𝐂𝐄𝐃 PROTECTION
-
-
-"Sovereign" automatically responds to geo-zones. Entering an airport — "Sovereign" freezes. Entering a sensitive institution — "Sovereign" enters Veil mode. Returning home — everything unfreezes.
-
-Zones you set yourself. "Sovereign" watches the perimeter in the background (with minimal battery consumption, through network beacons — Wi-Fi BSSID and cell tower ID, not constant GPS).
-
-
        🌫️  𝐓𝐇𝐄 𝐕𝐄𝐈𝐋
 
 
-Cryptographic deniability. When "Sovereign" is in Veil mode, the very fact of its existence cannot be proven. The container is mathematically indistinguishable from random data or ordinary encrypted Android cache.
+Everyday-level deniability. When "Sovereign" is in Veil mode, there are no visible signs that a hidden vault exists — no folder, no icon, no obvious file. To an ordinary person inspecting the phone, it simply is not there.
 
 When inspecting the phone — no signs of "Sovereign". No folders, no icons, no suspicious files. Just an ordinary phone with an ordinary owner.
 
-This is deniable encryption of military standards, packaged in an ordinary UI with a toggle.
+This is plausible deniability at an everyday level, packaged in an ordinary UI with a toggle. We are honest about the limit: on a non-rooted device this is real-world deniability, not a mathematical guarantee against a determined state forensic lab.
 
 
        👻  EPHEMERAL «SOVEREIGN»
@@ -408,14 +396,6 @@ Dead man switch. If you have not opened "Sovereign" for N days (you set it yours
 For journalists, investigators, activists, people with compromising materials on hand. For anyone who understands that circumstances can change without warning.
 
 
-       🧬  𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍 𝐈𝐍𝐇𝐄𝐑𝐈𝐓𝐀𝐍𝐂𝐄 — CRYPTOGRAPHIC INHERITANCE
-
-
-Transfer of access to "Sovereign" in case of death or prolonged disappearance. Multi-signature by Shamir's scheme — you distribute N fragments of the key to trusted persons in advance, and upon fulfilment of a condition (for example, 3 of 5 signatures plus event confirmation) they can jointly restore access.
-
-For crypto holders who have lost sleep at the thought that millions will go into oblivion if something happens to them. For families where access to finances must be preserved. For businessmen with critical assets.
-
-
        🎭  𝐏𝐇𝐀𝐍𝐓𝐎𝐌 𝐏𝐄𝐑𝐒𝐎𝐍𝐀 — A GHOST FOR ALGORITHMS  ⚡
 
 
@@ -460,16 +440,6 @@ Transfer of files, keys, messages between two people with Sovereign — directly
 In the long term — the foundation for an entire Sovereign mesh ecosystem.
 
 
-       🌉  𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍 𝐈𝐃𝐄𝐍𝐓𝐈𝐓𝐘 𝐁𝐑𝐈𝐃𝐆𝐄 — BRIDGE TO WEB3
-
-
-The crypto wallet physically lives in the "Sovereign" enclave. When any app (DEX in "Human", e-commerce in "Citizen" accepting crypto) wants to sign a transaction — it sends a request through a system intent to "Sovereign".
-
-"Sovereign" shows explicit confirmation with a full transaction breakdown (what is being signed, where the funds go, what is the amount, what are the fees). Only after explicit user confirmation, "Sovereign" signs the transaction inside its enclave and returns the signature.
-
-The private key never leaves "Sovereign". This is integration with the SovereignBankWeb3 ecosystem at the architectural level.
-
-
        🧩  𝐕𝐀𝐔𝐋𝐓 𝐅𝐑𝐀𝐆𝐌𝐄𝐍𝐓𝐀𝐓𝐈𝐎𝐍 — KEY FRAGMENTATION
 
 
@@ -491,7 +461,7 @@ Also, "Sovereign" will provide the option to use a simpler key, which will be st
 
 Protection against the "store now, decrypt later" attack. All serious intelligence services in the world are currently collecting encrypted traffic and encrypted data into an archive, hoping to decrypt them in 10–15 years when quantum computers appear. Standard AES-256 encryption will not survive that era. Post-quantum algorithms will.
 
-Sovereign is the only application in the world ready for the quantum era at this level.
+Very few mobile apps put NIST-standardized post-quantum cryptography into the hands of everyday users — Sovereign is one of them.
 
 
        ✈️  𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍 𝐀𝐈𝐑 𝐆𝐀𝐏
@@ -513,8 +483,8 @@ Sovereign is designed with the understanding that battery is a finite resource. 
 
 | Level | Features | Behavior |
 |---|---|---|
-| 🟢 **Low** | Behavioral Locks, Time-Locked, The Veil, Compass, Vault, Forensic Bait, Quantum Vault, Air Gap | Enabled by default |
-| 🟡 **Medium** | Sovereign Mesh, X-Ray, Phantom Persona, Stranger Detection, Per-app VPN | Toggle, disabled by default |
+| 🟢 **Low** | Time-Locked, The Veil, Compass, Vault, Forensic Bait, Quantum Vault, Air Gap | Enabled by default |
+| 🟡 **Medium** | Sovereign Mesh, X-Ray, Phantom Persona, Stranger Detection | Toggle, disabled by default |
 | 🔴 **High** | Sovereign Whisper (AI), Silent Witness Recording | Toggle, activation on demand |
 
 
@@ -591,7 +561,7 @@ Sovereign is a one-time, lifetime purchase. No subscriptions. No monthly payment
 
 
    ▸  "Citizen" + "Human" architecture
-   ▸  Basic isolation layer (per-app VPN, DNS, clipboard, vault, freeze, wipe)
+   ▸  Basic isolation layer (DNS, clipboard, vault, freeze, duress wipe, anti-screenshot)
    ▸  Sovereign X-Ray (graph, audit, reports)
    ▸  Sovereign Compass (threat indicator)
    ▸  Sovereign Scenarios (scenarios of being)
@@ -605,19 +575,15 @@ Sovereign is a one-time, lifetime purchase. No subscriptions. No monthly payment
    ▸  Everything from Standard
    ▸  Full "Sovereign" profile (third level)
    ▸  Sovereign Whisper (local AI)
-   ▸  Behavioral Locks
    ▸  Time-Locked Modules
-   ▸  Geo-Fenced protection
    ▸  The Veil
    ▸  Ephemeral "Sovereign"
    ▸  Forensic Bait
    ▸  Silent Witness Recording
    ▸  Stranger Detection
    ▸  Sovereign Witness (dead man switch)
-   ▸  Sovereign Inheritance
    ▸  Phantom Persona
    ▸  Sovereign Mesh
-   ▸  Sovereign Identity Bridge
    ▸  Vault Fragmentation
    ▸  Quantum Vault (post-quantum encryption)
    ▸  Sovereign Air Gap
@@ -634,7 +600,7 @@ Sovereign is a one-time, lifetime purchase. No subscriptions. No monthly payment
    ▸  Lifetime VIP status in the SovereignBankWeb3 and Egregor ecosystem
    ▸  Payment only in USDT / USDC
 
-Payment for Standard and Premium — bank card and stablecoins (USDT / USDC). For Founders — only cryptocurrency as an audience filter.
+Payment — in USDT / USDC (stablecoins), on Ethereum (ERC-20) or Tron (TRC-20). You pay first; within hours you receive your license key, the .apk download link, and the full manual by email. No subscriptions, no intermediaries, no KYC.
 
 
 ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
@@ -643,20 +609,24 @@ Payment for Standard and Premium — bank card and stablecoins (USDT / USDC). Fo
   🗺️  ROADMAP
 
 
-   ◈  v1.0 — Foundation
-      "Citizen" + "Human" architecture, basic layer, X-Ray, Compass, Scenarios.
+   ◈  v1.0 — Foundation & Sovereign   ✅  SHIPPING NOW
+      Full "Citizen" / "Human" / "Sovereign" triad. X-Ray, Compass, Scenarios,
+      Topology View. Encrypted Vault, Vault Fragmentation, Quantum Vault
+      (post-quantum), The Veil, Ephemeral "Sovereign", duress wipe. Sovereign
+      Whisper (local AI), Silent Witness, Stranger Detection, Sovereign Witness
+      (dead man switch), Phantom Persona, Forensic Bait, Time-Locked Modules,
+      Sovereign Mesh, Air Gap, separate DNS.
 
-   ◈  v1.1 — Sovereign
-      Full third profile, all cryptographic modules, Whisper, Witness, Inheritance, Stranger Detection.
+   ◈  v1.x — Network & Access   🔜  planned
+      Per-app VPN, Behavioral Locks, Geo-Fenced protection.
 
-   ◈  v1.2 — Mesh & Bridge
-      Sovereign Mesh, Identity Bridge, integration with SovereignBankWeb3.
+   ◈  v1.x — Web3 & Legacy   🔜  planned
+      Sovereign Identity Bridge, Sovereign Inheritance,
+      integration with SovereignBankWeb3.
 
-   ◈  v2.0 — Quantum & Air Gap
-      Post-quantum cryptography, Air Gap mode, expanded Forensic Bait.
-
-   ◈  v2.x — Expansion
-      Sovereign Desktop, build for devices without GMS, Phantom Persona expansion, new scenarios.
+   ◈  v2.0 — Expansion   🔜  planned
+      Sovereign Desktop, build for devices without GMS,
+      Phantom Persona expansion, new scenarios.
 
 
 ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
@@ -688,14 +658,26 @@ This is not a choice. This is the understanding that digital sovereignty of pers
 That is why everything is done in parallel. That is why fast. That is why without the right to compromise.
 
 
-  💎  AT THIS STAGE OF 𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍'𝐒 DEVELOPMENT — I INVITE SPONSORS
+  🛒  SECURE PURCHASE — PAY IN CRYPTO
 
 
-Sovereign has transitioned from the concept stage to the stage of active development. Architecture designed. Technical risks analyzed. Unique modules defined. The foundation for writing code is ready.
+Sovereign is finished, tested, and packaged as an installable .apk. Buy it today — a one-time, lifetime license.
 
-For those who share the philosophy of digital sovereignty and are ready to support the project at a critical stage — a window is open for private sponsors and strategic partners. Terms are discussed individually. Possible formats — priority lifetime access, participation in the manifesto, preferential terms in the SovereignBankWeb3 ecosystem, and other arrangements.
+   01  ─  Send your edition's amount in USDT / USDC — on Ethereum (ERC-20) or Tron (TRC-20).
+   02  ─  Email your transaction hash with 𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍 in the subject line.
+   03  ─  Receive your license key, the .apk download link, and the full manual in reply.
 
-Contact for proposals — through the profile below.
+Wallet addresses and the purchase button live on the official page:
+
+                    ▸  https://s0vereign.pw/#sovereign
+
+   🔒  Personal delivery & money-back guarantee. Every order is processed personally.
+       Keys usually arrive within a couple of hours; a reply is guaranteed within 9 hours.
+       If your key does not arrive in that time — write again and your USDT is refunded in full.
+
+   ⚠️  Why pay first, download after? The .apk is delivered only after payment. A paying
+       owner has no reason to give the app away for free — and that is what keeps a solo,
+       self-funded project alive. This is deliberate, not distrust.
 
 
                             ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
