@@ -1,0 +1,51 @@
+name: "📱 Device compatibility report"
+description: "Tell us how SOVEREIGN runs on your phone. This helps everyone choosing a device."
+title: "[Device]: <manufacturer> <model>"
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You just helped the whole community. These reports build a public map of
+        **which phones run SOVEREIGN well**. You can write in **English or Russian**.
+  - type: input
+    id: device
+    attributes:
+      label: Manufacturer & model
+      placeholder: "Tecno Spark 20 Pro+"
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version & OS skin
+      placeholder: "Android 14 · HiOS 14"
+    validations:
+      required: true
+  - type: dropdown
+    id: isolation
+    attributes:
+      label: Does the three-profile isolation (Citizen / Human / Sovereign) work?
+      options:
+        - "✅ Fully — all three profiles work"
+        - "🟡 Partially — some limits (describe below)"
+        - "❌ No — isolation does not work"
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Which features work, and which don't?
+      description: Especially note anything that behaves differently from the README.
+      placeholder: |
+        Working: X-Ray, Vault, Whisper, Mesh, Veil
+        Not working / limited: Silent Witness camera indicator can't be hidden on this skin
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for other users
+      description: Battery behaviour, OEM quirks, tips for setup on this phone.
+    validations:
+      required: false
