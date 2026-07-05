@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions, ideas & showcases
+    url: https://github.com/VladislavShter/SOVEREIGN/discussions
+    about: Ask a question, share your setup, or discuss ideas in Discussions.
+  - name: 🛒 Buy SOVEREIGN / official page
+    url: https://s0vereign.pw/#sovereign
+    about: Get a lifetime license and the .apk (pay in USDT / USDC).
