@@ -1,0 +1,87 @@
+name: "🐞 Bug report"
+description: "Something in SOVEREIGN doesn't work as expected."
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make SOVEREIGN better. You can write in **English or Russian**.
+        Please do **not** post secrets, passwords, seed phrases or private vault contents.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly. What did you see?
+      placeholder: When I open the Sovereign profile, the app closes immediately.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger it?
+      placeholder: |
+        1. Open the app
+        2. Go to '...'
+        3. Tap '...'
+        4. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the app?
+      options:
+        - "I'm not sure"
+        - "Profiles (Citizen / Human / Sovereign)"
+        - "Sovereign X-Ray"
+        - "Sovereign Compass"
+        - "Vault / Vault Fragmentation"
+        - "Quantum Vault"
+        - "Sovereign Whisper (local AI)"
+        - "The Veil"
+        - "Sovereign Mesh"
+        - "Air Gap"
+        - "Silent Witness / Stranger Detection"
+        - "Phantom Persona"
+        - "Forensic Bait"
+        - "Time-Locked modules / Scenarios"
+        - "Duress wipe"
+        - "Other"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: "Tecno Spark 20 Pro+ / Google Pixel 8 / Samsung Galaxy S23 ..."
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version & OS skin
+      placeholder: "Android 14 (HiOS) / Android 15 (One UI 7) / Android 14 (MIUI) ..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SOVEREIGN version & edition
+      placeholder: "v1.0 — Premium"
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or extra details
+      description: Drag & drop screenshots here if it helps. Remember — no private data.
+    validations:
+      required: false
