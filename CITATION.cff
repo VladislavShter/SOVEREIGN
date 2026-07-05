@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you reference or use SOVEREIGN, please cite it as below."
+title: "SOVEREIGN — Systemic Suite for Personal Data Protection in a Smartphone"
+abstract: >-
+  SOVEREIGN is an Android privacy suite that splits a single phone into three
+  isolated spaces — "Citizen", "Human" and "Sovereign" — using standard Android
+  work-profile and enclave mechanisms, without root and without the cloud. It
+  reveals what installed apps actually collect (Sovereign X-Ray), protects files
+  in a post-quantum encrypted vault (Kyber, Dilithium, AES-256), runs a fully
+  offline on-device AI assistant (Sovereign Whisper), and adds defensive tools
+  such as duress wipe, a hidden "Veil" vault, Sovereign Mesh, Air Gap and
+  Forensic Bait. Built solo by Vladislav Shter.
+type: software
+authors:
+  - family-names: Shter
+    given-names: Vladislav
+version: "1.0"
+date-released: "2026-07-05"
+license: Apache-2.0
+repository-code: "https://github.com/VladislavShter/SOVEREIGN"
+url: "https://s0vereign.pw/#sovereign"
+keywords:
+  - android
+  - privacy
+  - security
+  - data-sovereignty
+  - work-profile
+  - encryption
+  - post-quantum-cryptography
+  - local-ai
+  - offline-ai
+  - anti-surveillance
+  - deniable-encryption
+  - mobile-security
+  - opsec
