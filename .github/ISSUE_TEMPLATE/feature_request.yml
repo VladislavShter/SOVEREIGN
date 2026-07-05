@@ -1,0 +1,46 @@
+name: "💡 Feature request / idea"
+description: "Suggest a new feature or an improvement for SOVEREIGN."
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea that fits the philosophy of digital sovereignty? Tell us.
+        You can write in **English or Russian**.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the need, not just the solution.
+      placeholder: I want a way to hide the Sovereign profile from anyone who borrows my phone.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Your proposed solution
+      description: How do you imagine it working?
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does it touch?
+      options:
+        - "Profiles & isolation"
+        - "Encryption & vault"
+        - "Local AI (Whisper)"
+        - "Surveillance analysis (X-Ray)"
+        - "Defensive tools (Veil, Duress, Bait, etc.)"
+        - "Networking (Mesh, Air Gap, DNS)"
+        - "Interface, languages & usability"
+        - "Something else"
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+    validations:
+      required: false
