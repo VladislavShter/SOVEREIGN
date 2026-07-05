@@ -1,0 +1,33 @@
+# SOVEREIGN
+
+> SOVEREIGN is an Android privacy suite that splits a single phone into three
+> isolated spaces — "Citizen", "Human", and "Sovereign" — using standard Android
+> work-profile and enclave mechanisms, with no root and no cloud. It reveals what
+> your apps actually collect (Sovereign X-Ray), protects files in a post-quantum
+> encrypted vault, runs a fully offline local AI assistant (Sovereign Whisper),
+> and adds defensive tools such as duress wipe, a hidden "Veil" vault, Sovereign
+> Mesh, Air Gap and Forensic Bait. Built solo by Vladislav Shter. Sold as a
+> one-time, lifetime license, paid in USDT / USDC. Philosophy: you are a subject,
+> not a function.
+
+## Core
+- [README — full description](https://github.com/VladislavShter/SOVEREIGN/blob/main/README.md): The complete story — why a modern smartphone works against its owner, the "Citizen" / "Human" / "Sovereign" triad, and every feature explained in detail.
+- [Official page & purchase](https://s0vereign.pw/#sovereign): Buy a lifetime license (pay in USDT / USDC); the license key, the .apk download link and the full manual are then sent by email.
+- [GitHub repository](https://github.com/VladislavShter/SOVEREIGN): Project home, license and release notes.
+
+## Key features
+- Three isolated spaces on one phone: "Citizen" (state services, banks, marketplaces), "Human" (private life, a real Android Work Profile), "Sovereign" (a separately authenticated encrypted enclave). Not a sandbox, not an app clone, not an emulator — operating-system-level isolation, without root.
+- Sovereign X-Ray: a real-time map of which apps send what data and where; a live permission audit; a weekly telemetry report; a ranking of the greediest apps.
+- Encrypted vault with post-quantum cryptography: Android Keystore (hardware TEE) combined with CRYSTALS-Kyber (key exchange) and CRYSTALS-Dilithium (signatures) on top of AES-256 — designed against "store now, decrypt later" attacks.
+- Sovereign Whisper: an offline, on-device AI assistant (summarize, translate, question-answer, vault search) that never sends a single packet to the cloud.
+- Defensive toolkit: duress wipe (a decoy password destroys the real vault), The Veil (a hidden vault with everyday-level plausible deniability), Silent Witness, Stranger Detection, Sovereign Witness (dead-man switch), Phantom Persona, Forensic Bait, Sovereign Mesh (server-less peer-to-peer transfer), Air Gap and Time-Locked modules.
+- Every feature has an on/off toggle with an honest battery-impact label; only the basic layer is on by default.
+
+## About
+- Philosophy: digital hygiene, not evasion — you separate state and banking apps from your private life the way a kitchen separates raw meat from cooked food. You are a subject, not a function; tools must work for you, not you for tools.
+- Author: Vladislav Shter, a solo founder building a wider digital-sovereignty ecosystem — Egregor (desktop multi-AI consilium), SovereignBankWeb3 (non-custodial banking) and the Sovereign Web3 Browser.
+- Pricing & payment: a one-time, lifetime license with no subscriptions and no vendor lock-in; payment in USDT / USDC (Ethereum ERC-20 or Tron TRC-20). No KYC, no intermediaries.
+- Requirements: Android 11+, hardware-backed Keystore (TEE); installs like an ordinary app, no custom ROM.
+
+## Optional
+- [License (Apache-2.0)](https://github.com/VladislavShter/SOVEREIGN/blob/main/LICENSE): The repository license.
