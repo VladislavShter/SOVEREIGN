@@ -29,7 +29,28 @@
                                                   to your phone. ❞
 
 
-              ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
+                                        🎬  S E E   I T   I N   A C T I O N
+
+
+<table>
+<tr>
+<td width="250" valign="top">
+  <a href="https://youtu.be/cvy4_lwi-TI"><img src="assets/sovereign-demo.gif" width="230" alt="SOVEREIGN — see it in action"/></a>
+</td>
+<td valign="top">
+<p>Three isolated spaces on one phone — <b>Citizen</b>, <b>Human</b> and <b>Sovereign</b> — running live on a real device. No root. No mockups.</p>
+<ul>
+<li><b>Citizen</b> — state, banking &amp; marketplace apps, in full.</li>
+<li><b>Human</b> — your private life, in a real Android Work Profile.</li>
+<li><b>Sovereign</b> — an encrypted enclave, invisible until the key is entered.</li>
+</ul>
+<p><b>▶ <a href="https://youtu.be/cvy4_lwi-TI">Watch the full 3-minute demo on YouTube →</a></b></p>
+</td>
+</tr>
+</table>
+
+
+              ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆ ◇ ◆
 
 
                                         📱  YOUR SMARTPHONE IS NOT YOURS
