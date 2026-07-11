@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ваш смартфон следит за вами — и это давно не про фонарик — Sovereign</title>
+<meta name="description" content="К 2026 году слежка переехала в незаметные приложения без иконок. Как соло-разработчик сделал Sovereign — защиту личных данных на Android без root.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08090b;--card:#101216;--line:rgba(255,255,255,.08);--teal:#00FFC2;--glow:rgba(0,255,194,.25);--txt:#e8eaed;--muted:#9aa0a6}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#0d1a18,#08090b 60%);color:var(--txt);font-family:'Inter',system-ui,sans-serif;line-height:1.75;font-size:18px}
+.wrap{max-width:760px;margin:0 auto;padding:64px 22px 90px}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:2px;color:var(--teal);text-transform:uppercase}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.08;letter-spacing:-.02em;margin:.35em 0 .25em;background:linear-gradient(135deg,#fff,#00FFC2 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:20px;color:var(--muted);font-style:italic;margin-bottom:42px}
+h2{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(23px,4vw,32px);letter-spacing:-.01em;margin:58px 0 18px;display:flex;align-items:center;gap:14px;color:#fff}
+h2 svg{flex:none;width:32px;height:32px;stroke:var(--teal);stroke-width:1.6;fill:none;filter:drop-shadow(0 0 8px var(--glow))}
+p{margin:0 0 18px}
+b,strong{color:#fff}
+a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,255,194,.3)}
+.profiles{display:grid;gap:14px;margin:10px 0}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.pcard .pt{font-family:'Syne',sans-serif;font-weight:700;font-size:20px;color:#fff;margin-bottom:4px}
+.pcard.sov{border-color:rgba(0,255,194,.4);box-shadow:0 0 30px var(--glow)}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:4px 22px;margin:24px 0}
+.feat div{padding:15px 0;border-bottom:1px solid var(--line)}
+.feat div:last-child{border-bottom:none}
+.cta{margin:30px 0}
+.btn{display:inline-block;background:var(--teal);color:#000;font-family:'Syne',sans-serif;font-weight:800;padding:14px 26px;border-radius:12px;margin:6px 8px 6px 0}
+.btn.ghost{background:transparent;color:var(--teal);border:1px solid var(--teal)}
+.eco{margin-top:66px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px 28px}
+.eco h3{font-family:'Syne',sans-serif;color:#fff;font-size:22px;margin:0 0 14px;display:flex;align-items:center;gap:12px}
+.eco h3 svg{width:26px;height:26px;stroke:var(--teal);stroke-width:1.6;fill:none}
+.eco ul{list-style:none;padding:0;margin:0 0 18px}
+.eco li{padding:8px 0;border-bottom:1px solid var(--line)}
+.eco li:last-child{border-bottom:none}
+.eco .lbl{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:1px;color:var(--teal);text-transform:uppercase}
+.links{font-family:'JetBrains Mono',monospace;font-size:14px;line-height:2.2}
+.sig{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:14px;text-align:center;margin-top:34px}
+</style>
+</head>
+<body>
+<article class="wrap">
+
+<div class="kicker">Приватность · Личный опыт</div>
+<h1>Ваш смартфон следит за вами — и это давно не про фонарик</h1>
+<p class="lead">Год назад я открыл настройки телефона и пролистал список приложений. И поймал себя на мысли: это не я ими пользуюсь — это они пользуются мной. Вот что я с этим сделал.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Слежка, которую вы не видите</h2>
+<p>Классический пример — фонарик, который зачем-то просит геолокацию и список сетей Wi-Fi. Но будем честны: <b>не каждый фонарик следит, и не в каждом телефоне.</b> Дело давно не в конкретной иконке.</p>
+<p>К 2026 году производители и рекламные сети научились куда более тонкому. Сбор данных переехал в <b>незаметные системные приложения и фоновые функции — у которых часто нет даже иконки на рабочем столе.</b> Вы про них не знаете, вы их не открывали и не удалите. А они спокойно собирают геолокацию, карту устройств вокруг, идентификаторы, характер ваших движений. Так строится ваша цифровая модель — та, на которую вы никогда не давали согласия. И живёт она не у вас в кармане, а на чужих серверах.</p>
+<p>Мы привыкли к этому как к погоде. Но однажды меня зацепила простая мысль. На кухне действует железное правило: сырое мясо не лежит на одной полке с готовой едой. Это не паранойя — это гигиена. А в цифровом мире мы свалили всё в одну кучу: госуслуги, банк, личную переписку, фотографии детей, крипто-кошелёк. Любое приложение потенциально видит соседа. Цифровой мир забыл про гигиену. Я решил её вернуть.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>Почему антивирус и «инкогнито» не спасают</h2>
+<p>Первое, что приходит в голову — антивирус или режим инкогнито. Не работает. Антивирус ловит вирусы, а не легальный сбор данных, на который вы сами нажали «Разрешить». Инкогнито прячет историю браузера от вашей семьи, но не от сайтов.</p>
+<p>Второй вариант — «откажусь от приложений». Мимо. Попробуйте в 2026 году жить без банка, госуслуг и маркетплейса. Это не свобода, это самоизоляция от реальности.</p>
+<p>Третий — кастомные прошивки и root. Работает, но это путь для 0,1% гиков. Обычный человек не будет перепрошивать телефон и терять гарантию. Мне хотелось решения для нормальных людей: <b>чтобы все приложения работали как обычно, но перестали видеть друг друга. Без root. На том телефоне, что уже в кармане.</b></p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 12l10 5 10-5"/><path d="M2 17l10 5 10-5"/></svg>Три личности в одном телефоне</h2>
+<p>Так появился <b>Sovereign</b> — приложение, которое делит один смартфон на три изолированных пространства.</p>
+<div class="profiles">
+  <div class="pcard"><div class="pt">Гражданин</div>Витрина для государства и повседневности: госуслуги, банки, маркетплейсы, а также массовые мессенджеры — MAX, Telegram. Всё работает в полную силу. Государство видит обычного гражданина с обычным телефоном. Sovereign просто показывает вам, что эти приложения делают.</div>
+  <div class="pcard"><div class="pt">Человек</div>Ваша личная жизнь. Мессенджеры для приватной переписки (например, Signal), крипто-кошельки, торрент-хабы, личные фото и почта. Своё хранилище, свои ключи. «Гражданин» не может прочитать отсюда ни одного файла.</div>
+  <div class="pcard sov"><div class="pt">Суверен</div>Зашифрованный анклав для самого ценного. Его не видно в списке приложений. При обычном осмотре телефона там просто нечего открывать.</div>
+</div>
+<p>Ключевой момент: это <b>не песочница и не клон</b>. Изоляция работает на уровне операционной системы — через штатные механизмы Android (рабочий профиль и анклав). Поэтому <b>root не нужен</b>, прошивка не нужна. Устанавливается как обычное приложение.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg>Что внутри</h2>
+<p>Не буду прятать функции за общими словами — вот что реально умеет версия 1.0:</p>
+<div class="feat">
+  <div><b>Sovereign X-Ray</b> — рентген слежки. Живая карта: какое приложение куда отправляет данные прямо сейчас. Видно, как «незаметный» сервис стучится в аналитику, а банк шлёт десятки запросов в час даже при заблокированном экране. Плюс еженедельный отчёт простым языком.</div>
+  <div><b>Sovereign Compass</b> — индикатор угрозы одним взглядом: зелёный / жёлтый / красный в строке состояния, на основе анализа сотен сигналов на самом устройстве. Без интернета.</div>
+  <div><b>Зашифрованное хранилище с пост-квантовой защитой</b> — аппаратный модуль Android плюс алгоритмы Kyber и Dilithium поверх AES. Честно: пост-квантовая часть защищает ключ — на случай атак «сохрани сейчас, расшифруй потом».</div>
+  <div><b>Sovereign Whisper</b> — ИИ, работающий офлайн, прямо на телефоне: перевод, резюмирование, поиск по хранилищу. Без единого исходящего пакета в облако.</div>
+  <div><b>The Veil</b> — скрытое хранилище. Под вуалью видимого сейфа нет — ни папки, ни иконки. Плюс стирание под принуждением: вводите пароль-приманку — открывается пустышка.</div>
+  <div><b>Mesh, Air Gap, отдельный DNS</b> — передача файлов с телефона на телефон без сервера, полное отключение профиля от сети, изоляция сетевого трафика.</div>
+</div>
+
+<h2><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg>Честно о том, чего Sovereign НЕ делает</h2>
+<p>Маркетинг «абсолютной защиты» — это ложь, а я такой не продаю. Sovereign — это цифровая гигиена, <b>а не режим невидимки для спецслужб</b>.</p>
+<p>Скрытое хранилище даёт правдоподобное отрицание на <b>бытовом уровне</b> — реальная защита от того, кто взял ваш телефон в руки, но не математическая гарантия против криминалистической лаборатории государства. Без root операционная система накладывает ограничения, и я их не обхожу и не обещаю обойти. Моя цель проще и честнее: отделить государство и банки от вашей личной жизни так же, как кухня отделяет сырое от готового.</p>
+
+<h2><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Почему в одиночку</h2>
+<p>У меня нет команды и раунда инвестиций. Есть телефон, ноутбук и упрямство. Каждую функцию я писал и проверял сам, на реальном устройстве. Это медленно и тяжело — но у соло-разработки есть преимущество: мне <b>некому продавать ваши данные</b>. В приложении нет облака, нет серверов, нет подписки. Оно не может «сливать» — ему некуда.</p>
+<p>Отсюда и философия, которую я вложил в проект: <b>вы — субъект, а не функция.</b> Инструмент должен работать на вас, а не вы на инструмент.</p>
+
+<h2><svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/><path d="M3 4h2l2.5 12h11l2-8H6"/></svg>Как попробовать</h2>
+<p>Sovereign завершён, протестирован и упакован в устанавливаемый <b>.apk</b>. Лицензия — разовая, навсегда, без подписок. Оплата в USDT/USDC; после оплаты на почту приходят ключ, ссылка на скачивание и полное руководство.</p>
+<div class="cta">
+  <a class="btn" href="https://s0vereign.pw/sovereign.html">Открыть страницу Sovereign</a>
+  <a class="btn ghost" href="https://youtu.be/cvy4_lwi-TI">Смотреть демо на YouTube</a>
+</div>
+
+<div class="eco">
+  <h3><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>Экосистема</h3>
+  <p>Sovereign — часть цифровой экосистемы соло-разработчика <b>Vladislav Shter</b>:</p>
+  <ul>
+    <li><span class="lbl">Sovereign</span> — защита личных данных в телефоне (эта статья).</li>
+    <li><span class="lbl">Egregor</span> — мульти-ИИ-консилиум для десктопа, <b>уже готов к продаже</b>.</li>
+    <li><span class="lbl">SovereignWeb3 Browser</span> — уникальный Web3-браузер, <b>скоро</b>.</li>
+    <li><span class="lbl">SovereignBank-Web3</span> — некастодиальный банкинг на блокчейне.</li>
+  </ul>
+  <div class="links">
+    Сайт экосистемы — <a href="https://s0vereign.pw/">s0vereign.pw</a><br>
+    GitHub — <a href="https://github.com/VladislavShter/SOVEREIGN">github.com/VladislavShter/SOVEREIGN</a><br>
+    GitVerse (зеркало) — <a href="https://gitverse.ru/wadyas/SOVEREIGN">gitverse.ru/wadyas/SOVEREIGN</a><br>
+    SovereignBank-Web3 — <a href="https://github.com/VladislavShter/SovereignBank-Web3">github.com/VladislavShter/SovereignBank-Web3</a><br>
+    Демо — <a href="https://youtu.be/cvy4_lwi-TI">youtu.be/cvy4_lwi-TI</a>
+  </div>
+</div>
+
+<p class="sig">Создаю соло, вопреки неизбежности. — Vladislav Shter</p>
+
+</article>
+</body>
+</html>

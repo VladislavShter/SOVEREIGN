@@ -1,0 +1,37 @@
+🛡️ 𝐒𝐎𝐕𝐄𝐑𝐄𝐈𝐆𝐍 — YOUR SMARTPHONE IS NOT YOURS
+📱 Every app on your phone works for you last. Even a plain flashlight collects GPS, nearby Wi-Fi and Bluetooth, IMEI, sensor data, your installed apps, your daily rhythm. A banking app — tens of times more. A government app — everything it can reach.
+🕵️ From this they build your DIGITAL TWIN. It knows your routine, tastes, fears, weaknesses, social graph, psychotype and health. It lives in clouds and registries, is traded between corporations, and is stored longer than you will live. And it isn't yours: you can't see it, delete it, or stop its updates.
+🛡️ SOVEREIGN IS AN EXIT, NOT AN ESCAPE. We don't teach you to hide from the state. We teach digital hygiene: you shouldn't keep government apps, banks, work and private life in one digital space. This isn't resistance — it's common sense.
+🏛️ THREE ISOLATED SPACES INSIDE ONE PHONE:
+👔 "Citizen" — government services, banks, marketplaces, Telegram. The state sees "an ordinary person with an ordinary phone." No suspicion, no blocks.
+🧑 "Human" — your private life: messengers, email, browser, social media, torrents, VPN. "Citizen" can't see it in ANY way — isolation at the OS level, not a "software lock."
+🜂 "Sovereign" — your invisible core: crypto, documents, archives, investigations. A second layer of encryption on top of the system one. No icon in the app list, data not indexed.
+⚠️ This is NOT a sandbox or a cloner like Parallel Space (banks block those). SOVEREIGN uses the standard Android Work Profile — the same mechanism corporations use to separate "work" and "personal." No root, no system mods, one-button install.
+✨ KEY FEATURES (each with an on/off toggle):
+🔍 Base layer: separate DNS, isolated clipboard, encrypted vault, freeze profiles with a gesture, 🩸 duress wipe (a second password opens a clean decoy and quietly destroys the real one), anti-screenshot.
+🩻 X-RAY — an X-ray of your digital life: real-time connection graph, permission audit, weekly report, "greed" ranking of apps.
+🧭 COMPASS — a threat traffic light 🟢🟡🔴 based on hundreds of parameters.
+🎭 SCENARIOS — life-state presets ("Home", "At the border", "Travel"): the whole config changes with one gesture in 2 seconds.
+🤖 WHISPER — local AI (Gemma/Llama/Qwen) with no cloud and no logs: translation, analysis, transcription, vault search.
+🌫️ THE VEIL — deniability mode: there are simply no traces of "Sovereign" on the phone.
+👻 EPHEMERAL — "Sovereign" lives only in RAM; forensics is powerless.
+🪤 FORENSIC BAIT — a decoy that makes investigators waste time.
+🎙️ SILENT WITNESS — covert video/audio/GPS recording during detention.
+🕯️ WITNESS — a dead man's switch: if you don't open it for N days → a scenario fires.
+🎭 PHANTOM PERSONA — background imitation of ordinary life to fool algorithms.
+👀 STRANGER DETECTION — detects someone else's touch, takes a hidden snapshot, closes "Sovereign."
+🌐 MESH — P2P connection between devices with no server and no internet.
+🧩 VAULT FRAGMENTATION — the key is split via Shamir into 3 fragments.
+🛰️ QUANTUM VAULT — NIST post-quantum crypto (Kyber + Dilithium) against "store now, decrypt later" attacks.
+✈️ AIR GAP — full disconnection of "Sovereign" from any network.
+🔒 PROTECTION FROM STATE FORENSICS. Honestly: absolute protection doesn't exist. But SOVEREIGN makes data extraction many times more expensive and slower — a second encryption layer, hardware keys in the TEE, Veil mode, decoys.
+🏷️ PRICE — a one-time, lifetime purchase, no subscriptions:
+📦 STANDARD $199 — Citizen + Human, base isolation, X-Ray, Compass, Scenarios
+💎 PREMIUM $499 — everything + the "Sovereign" profile, Whisper, Veil, Quantum Vault and all modules
+👑 FOUNDERS $999 — first 300: priority, early access, VIP in the ecosystem
+💰 Payment in USDT / USDC (ERC-20 / TRC-20). No KYC, no intermediaries. Pay → within a couple of hours you get your key, the .apk link and the full manual.
+📱 Requirements: Android 11+, 4 GB RAM, hardware-backed Keystore (TEE).
+▸ Buy: https://s0vereign.pw/#sovereign
+▸ GitHub: github.com/VladislavShter
+🜂 CREATING SOLO, AGAINST THE INEVITABLE
+❝ Digital sterility is not paranoia. It is self-respect. ❞

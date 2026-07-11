@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your phone spies on you — and it stopped being about the flashlight long ago — Sovereign</title>
+<meta name="description" content="By 2026 surveillance moved into invisible apps with no icon. How a solo developer built Sovereign — personal data protection on Android without root.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08090b;--card:#101216;--line:rgba(255,255,255,.08);--teal:#00FFC2;--glow:rgba(0,255,194,.25);--txt:#e8eaed;--muted:#9aa0a6}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#0d1a18,#08090b 60%);color:var(--txt);font-family:'Inter',system-ui,sans-serif;line-height:1.75;font-size:18px}
+.wrap{max-width:760px;margin:0 auto;padding:64px 22px 90px}
+.kicker{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:2px;color:var(--teal);text-transform:uppercase}
+h1{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.08;letter-spacing:-.02em;margin:.35em 0 .25em;background:linear-gradient(135deg,#fff,#00FFC2 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:20px;color:var(--muted);font-style:italic;margin-bottom:42px}
+h2{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(23px,4vw,32px);letter-spacing:-.01em;margin:58px 0 18px;display:flex;align-items:center;gap:14px;color:#fff}
+h2 svg{flex:none;width:32px;height:32px;stroke:var(--teal);stroke-width:1.6;fill:none;filter:drop-shadow(0 0 8px var(--glow))}
+p{margin:0 0 18px}
+b,strong{color:#fff}
+a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(0,255,194,.3)}
+.profiles{display:grid;gap:14px;margin:10px 0}
+.pcard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
+.pcard .pt{font-family:'Syne',sans-serif;font-weight:700;font-size:20px;color:#fff;margin-bottom:4px}
+.pcard.sov{border-color:rgba(0,255,194,.4);box-shadow:0 0 30px var(--glow)}
+.feat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:4px 22px;margin:24px 0}
+.feat div{padding:15px 0;border-bottom:1px solid var(--line)}
+.feat div:last-child{border-bottom:none}
+.cta{margin:30px 0}
+.btn{display:inline-block;background:var(--teal);color:#000;font-family:'Syne',sans-serif;font-weight:800;padding:14px 26px;border-radius:12px;margin:6px 8px 6px 0}
+.btn.ghost{background:transparent;color:var(--teal);border:1px solid var(--teal)}
+.eco{margin-top:66px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px 28px}
+.eco h3{font-family:'Syne',sans-serif;color:#fff;font-size:22px;margin:0 0 14px;display:flex;align-items:center;gap:12px}
+.eco h3 svg{width:26px;height:26px;stroke:var(--teal);stroke-width:1.6;fill:none}
+.eco ul{list-style:none;padding:0;margin:0 0 18px}
+.eco li{padding:8px 0;border-bottom:1px solid var(--line)}
+.eco li:last-child{border-bottom:none}
+.eco .lbl{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:1px;color:var(--teal);text-transform:uppercase}
+.links{font-family:'JetBrains Mono',monospace;font-size:14px;line-height:2.2}
+.sig{font-family:'JetBrains Mono',monospace;color:var(--muted);font-size:14px;text-align:center;margin-top:34px}
+</style>
+</head>
+<body>
+<article class="wrap">
+
+<div class="kicker">Privacy · A builder's story</div>
+<h1>Your phone spies on you — and it stopped being about the flashlight long ago</h1>
+<p class="lead">A year ago I opened my phone's settings and scrolled through the app list. And it hit me: I'm not the one using these apps — they're using me. Here's what I did about it.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>The surveillance you never see</h2>
+<p>The classic example is a flashlight app that somehow wants your location and your Wi-Fi map. But let's be honest: <b>not every flashlight spies, and not on every phone.</b> This stopped being about a specific icon a long time ago.</p>
+<p>By 2026, manufacturers and ad networks learned something far subtler. Data collection moved into <b>invisible system apps and background services — many of which don't even have an icon on your home screen.</b> You don't know about them, you never opened them, and you can't delete them. Yet they quietly harvest your location, the map of devices around you, your identifiers, the pattern of your movements. That builds a digital model of you — one you never agreed to — and it lives not in your pocket, but on someone else's servers.</p>
+<p>We treat this like the weather. But one thought stuck with me. In a kitchen there's an iron rule: raw meat doesn't share a shelf with cooked food. That's not paranoia — it's hygiene. In the digital world we threw everything onto one shelf: government services, banking, private messages, photos of our kids, a crypto wallet. Any app can potentially see its neighbor. The digital world forgot about hygiene. I decided to bring it back.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>Why antivirus and "incognito" won't save you</h2>
+<p>The first instinct is an antivirus or incognito mode. It doesn't work. Antivirus catches viruses, not the legal data collection you tapped "Allow" on yourself. Incognito hides your browser history from your family, not from the sites.</p>
+<p>The second idea — "I'll just quit apps." Also a miss. Try living in 2026 without a banking app, government services and a marketplace. That's not freedom, that's self-exile from reality.</p>
+<p>The third — custom ROMs and root. It works, but it's a path for the 0.1% of geeks. A normal person won't reflash their phone and void the warranty. I wanted a solution for normal people: <b>let every app work as usual, but stop them from seeing each other. No root. On the phone already in your pocket.</b></p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 12l10 5 10-5"/><path d="M2 17l10 5 10-5"/></svg>Three identities in one phone</h2>
+<p>That's how <b>Sovereign</b> was born — an app that splits one phone into three isolated spaces.</p>
+<div class="profiles">
+  <div class="pcard"><div class="pt">Citizen</div>The public-facing side: government services, banks, marketplaces, and mass messengers such as MAX and Telegram. Everything works in full. The state sees an ordinary citizen with an ordinary phone. Sovereign simply shows you what these apps are doing.</div>
+  <div class="pcard"><div class="pt">Human</div>Your private life. Messengers for private conversation (such as Signal), crypto wallets, torrent hubs, personal photos and mail. Its own storage, its own keys. Citizen cannot read a single file from here.</div>
+  <div class="pcard sov"><div class="pt">Sovereign</div>An encrypted enclave for what matters most. It isn't shown in the app list. To an ordinary inspection of the phone, there's simply nothing there to open.</div>
+</div>
+<p>The key point: this is <b>not a sandbox and not a clone</b>. Isolation runs at the operating-system level — through standard Android mechanisms (work profile and enclave). So <b>no root</b> is needed, no custom ROM. It installs like an ordinary app.</p>
+
+<h2><svg viewBox="0 0 24 24"><path d="M3 12h4l2 6 4-12 2 6h6"/></svg>What's inside</h2>
+<p>I won't hide the features behind vague words — here's what v1.0 actually does:</p>
+<div class="feat">
+  <div><b>Sovereign X-Ray</b> — an X-ray of surveillance. A live map of which app sends what data, where, right now. You see the "invisible" service pinging analytics, and the bank firing dozens of requests an hour even while locked. Plus a weekly plain-language report.</div>
+  <div><b>Sovereign Compass</b> — a one-glance threat light: green / yellow / red in the status bar, from analysis of hundreds of on-device signals. No internet needed.</div>
+  <div><b>Encrypted vault with post-quantum protection</b> — the Android hardware module plus the Kyber and Dilithium algorithms on top of AES. Honestly: the post-quantum part protects the key, against "store now, decrypt later" attacks.</div>
+  <div><b>Sovereign Whisper</b> — an AI that runs offline, right on the phone: translate, summarize, search your vault. Without a single outgoing packet to the cloud.</div>
+  <div><b>The Veil</b> — a hidden vault. When veiled, there's no visible vault — no folder, no icon. Plus a duress wipe: enter a decoy password and a hollow shell opens.</div>
+  <div><b>Mesh, Air Gap, separate DNS</b> — phone-to-phone file transfer with no server, fully cutting a profile off the network, isolating network traffic.</div>
+</div>
+
+<h2><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></svg>Honestly, what Sovereign does NOT do</h2>
+<p>Marketing "absolute protection" is a lie, and I don't sell that. Sovereign is digital hygiene, <b>not an invisibility cloak against state agencies</b>.</p>
+<p>The hidden vault gives plausible deniability at an <b>everyday level</b> — real protection against someone who picked up your phone, but not a mathematical guarantee against a state forensic lab. Without root, the operating system imposes limits, and I don't bypass them or promise to. My goal is simpler and more honest: to separate the state and banks from your private life the way a kitchen separates raw from cooked.</p>
+
+<h2><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Why solo</h2>
+<p>I have no team and no funding round. I have a phone, a laptop and stubbornness. I wrote and tested every feature myself, on a real device. It's slow and hard — but solo development has one advantage: <b>there's no one for me to sell your data to.</b> The app has no cloud, no servers, no subscription. It can't leak — it has nowhere to.</p>
+<p>Hence the philosophy I built into the project: <b>you are a subject, not a function.</b> A tool should work for you, not you for the tool.</p>
+
+<h2><svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="18" cy="21" r="1"/><path d="M3 4h2l2.5 12h11l2-8H6"/></svg>How to try it</h2>
+<p>Sovereign is finished, tested and packaged as an installable <b>.apk</b>. The license is one-time, lifetime, no subscriptions. Payment in USDT/USDC; after payment your key, the download link and the full manual arrive by email.</p>
+<div class="cta">
+  <a class="btn" href="https://s0vereign.pw/sovereign.html">Open the Sovereign page</a>
+  <a class="btn ghost" href="https://youtu.be/cvy4_lwi-TI">Watch the demo on YouTube</a>
+</div>
+
+<div class="eco">
+  <h3><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>The ecosystem</h3>
+  <p>Sovereign is part of the digital ecosystem of solo developer <b>Vladislav Shter</b>:</p>
+  <ul>
+    <li><span class="lbl">Sovereign</span> — personal data protection on your phone (this article).</li>
+    <li><span class="lbl">Egregor</span> — a desktop multi-AI consilium, <b>already on sale</b>.</li>
+    <li><span class="lbl">SovereignWeb3 Browser</span> — a unique Web3 browser, <b>coming soon</b>.</li>
+    <li><span class="lbl">SovereignBank-Web3</span> — non-custodial on-chain banking.</li>
+  </ul>
+  <div class="links">
+    Ecosystem site — <a href="https://s0vereign.pw/">s0vereign.pw</a><br>
+    GitHub — <a href="https://github.com/VladislavShter/SOVEREIGN">github.com/VladislavShter/SOVEREIGN</a><br>
+    GitVerse (mirror) — <a href="https://gitverse.ru/wadyas/SOVEREIGN">gitverse.ru/wadyas/SOVEREIGN</a><br>
+    SovereignBank-Web3 — <a href="https://github.com/VladislavShter/SovereignBank-Web3">github.com/VladislavShter/SovereignBank-Web3</a><br>
+    Demo — <a href="https://youtu.be/cvy4_lwi-TI">youtu.be/cvy4_lwi-TI</a>
+  </div>
+</div>
+
+<p class="sig">Created solo, against inevitability. — Vladislav Shter</p>
+
+</article>
+</body>
+</html>
